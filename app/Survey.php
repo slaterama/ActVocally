@@ -7,10 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Survey extends Model
 {
-	// TODO Add fields
 	protected $fillable = [
-		'story',
+		'name',
+		'email',
+		'city',
 		'birthday',
+		'diagnosis',
+		'age_at_diagnosis',
+		'anonymous',
+		'statement',
 	];
 
 	protected $dates = [
